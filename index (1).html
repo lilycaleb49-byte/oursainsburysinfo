@@ -2,770 +2,941 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="google-site-verification" content="OrjX2-rzPrc6nsOthoY9m6NrDX5Os8if5BolSCxD8X0" />
+    <meta name="google-site-verification" content="S0BznUg4zuAGyzHJKVfpho6EgkuerX5zRTzpAgkDLkY" />
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>How to Convert Cursive Font Generator to Text</title>
-<meta name="description" content="Learn how to convert cursive font generator text to normal text with simple steps and practical tips.">
 <meta name="robots" content="index, follow">
+  <meta name="googlebot" content="index, follow">
+  <meta name="bingbot" content="index, follow">
+
+<title>MySainsburys Login – Employee Portal Guide</title>
+<meta name="description" content="Explore MySainsburys Login, employee portal services, payslips, work rotas, staff benefits and helpful account access information.">
+
+  
+<link rel="canonical" href="https://lilycaleb49-byte.github.io/oursainsburysinfo/" />
+<link rel="icon" href="https://oursainsburysinfo.com/wp-content/uploads/2026/09/MySainsburys-3.webp" />
+
+<!-- Structured Data (Schema.org) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebPage",
+      "name": "MySainsburys Login – Employee Portal Guide",
+      "description": "Explore MySainsburys Login, employee portal services, payslips, work rotas, staff benefits and helpful account access information.",
+      "url": "https://lilycaleb49-byte.github.io/oursainsburysinfo/",
+      "image": "https://oursainsburysinfo.com/wp-content/uploads/2026/09/MySainsburys-3.webp",
+      "publisher": {
+        "@type": "Organization",
+        "name": "Tiktoksavers"
+      }
+    }
+    </script>
 <style>
 :root {
-  --red: #b40000;
-  --red-dark: #a60000;
-  --cream: #fff7e7;
-  --gold: #ffedc9;
-  --brown: #4a2817;
-  --text: #443a32;
-  --card: #fffaf0;
-  --border: #e8d0a9;
+    --orange: #ff6900;
+    --dark: #222;
+    --text: #555;
+    --light: #fff5ef;
 }
 
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
+    scroll-padding-top: 90px;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
-  color: var(--text);
-  background: var(--gold);
-  font-size: 16px;
-  line-height: 1.8;
+    font-family: Arial, Helvetica, sans-serif;
+    color: var(--dark);
+    background: #fff;
+    line-height: 1.7;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+/* HEADER - SAME DESIGN */
+
+header {
+    width: 100%;
+    background: #fff;
+    border-bottom: 3px solid var(--orange);
+    position: sticky;
+    top: 0;
+    z-index: 999;
 }
 
-/* Top red strip */
-.top-strip {
-  width: 100%;
-  height: 20px;
-  background: var(--red);
+.header-inner {
+    max-width: 1270px;
+    margin: auto;
+    padding: 9px 10px;
+    min-height: 64px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-/* Logo and title */
+.logo {
+    color: var(--orange);
+    font-size: 30px;
+    font-weight: 800;
+    text-decoration: none;
+    letter-spacing: -1.5px;
+    white-space: nowrap;
+    line-height: 1.2;
+}
+
+.nav-menu {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+
+.nav-menu a {
+    color: #111;
+    text-decoration: none;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 500;
+    position: relative;
+    padding: 7px 0 11px;
+    white-space: nowrap;
+    transition: .3s;
+}
+
+.nav-menu a:hover {
+    color: var(--orange);
+}
+
+.nav-menu a.active::after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #111;
+}
+
+.menu-toggle {
+    display: none;
+    background: none;
+    border: none;
+    color: #222;
+    font-size: 27px;
+    cursor: pointer;
+}
+
+/* HERO */
+
 .hero {
-  background: var(--cream);
-  min-height: 220px;
-  padding: 28px 20px 35px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  border-bottom: 1px solid #e8d7b9;
+    background: var(--light);
+    padding: 65px 20px;
+    text-align: center;
 }
 
-.hero-logo {
-  display: block;
-  width: min(720px, 92%);
-  height: auto;
-  max-height: 140px;
-  object-fit: contain;
-  margin: 0 auto 12px;
+.hero-content {
+    max-width: 950px;
+    margin: auto;
 }
 
-.hero-title {
-  font-family: Georgia, "Times New Roman", serif;
-  color: var(--brown);
-  font-size: clamp(25px, 3vw, 34px);
-  line-height: 1.3;
-  max-width: 950px;
-  margin: 0 auto;
+.breadcrumb {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 17px;
 }
 
-/* Article background */
-.page-background {
-  min-height: 100vh;
-  padding: 45px 20px 70px;
-  background-color: var(--gold);
-  background-image:
-    repeating-linear-gradient(
-      135deg,
-      rgba(255,255,255,0.12) 0,
-      rgba(255,255,255,0.12) 2px,
-      transparent 2px,
-      transparent 17px
-    );
+.breadcrumb span {
+    color: var(--orange);
 }
 
-.article-card {
-  max-width: 1200px;
-  width: 100%;
-  margin: 0 auto;
-  padding: 32px 40px 48px;
-  background: var(--card);
-  border: 1px solid var(--border);
-  border-radius: 13px;
-  box-shadow: 0 5px 20px rgba(93,53,13,0.045);
+.hero h1 {
+    font-size: 42px;
+    line-height: 1.25;
+    margin-bottom: 18px;
+    color: #222;
 }
 
-/* Breadcrumbs */
-.breadcrumbs {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  gap: 7px;
-  margin-bottom: 22px;
-  font-size: 14px;
-  color: #6b5544;
+.hero p {
+    font-size: 17px;
+    color: #666;
 }
 
-.breadcrumbs a {
-  color: var(--red);
-  font-weight: 600;
+/* ARTICLE */
+
+.container {
+    max-width: 1100px;
+    margin: 55px auto;
+    padding: 0 22px;
 }
 
-.breadcrumbs a:hover {
-  text-decoration: underline;
+article {
+    max-width: 850px;
+    margin: auto;
 }
 
-/* Article content */
-.article-content {
-  max-width: 810px;
-  margin: 0 auto;
+article h2 {
+    font-size: 27px;
+    line-height: 1.4;
+    margin: 40px 0 15px;
+    padding-bottom: 10px;
+    color: #222;
+    border-bottom: 2px solid #f3e3e5;
 }
 
-.category {
-  display: block;
-  color: var(--red);
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 0.8px;
-  margin-bottom: 8px;
-  text-transform: uppercase;
+article h2::after {
+    content: "";
+    display: block;
+    width: 55px;
+    height: 3px;
+    background: var(--orange);
+    margin-top: 10px;
 }
 
-h1, h2, h3 {
-  font-family: Georgia, "Times New Roman", serif;
-  color: var(--brown);
+article p {
+    font-size: 16px;
+    color: var(--text);
+    margin-bottom: 18px;
 }
 
-h1 {
-  font-size: clamp(32px, 4vw, 43px);
-  line-height: 1.16;
-  margin-bottom: 22px;
+article ul,
+article ol {
+    padding-left: 25px;
+    margin: 15px 0 25px;
+    color: var(--text);
 }
 
-.intro {
-  font-size: 17px;
-  line-height: 1.95;
-  color: #514438;
-  margin-bottom: 25px;
+article li {
+    padding-left: 5px;
+    margin-bottom: 10px;
 }
 
-.content-divider {
-  border: 0;
-  border-top: 1px solid #eadbc3;
-  margin: 26px 0;
+article strong {
+    color: #222;
 }
 
-.article-content section {
-  margin-top: 31px;
+/* CONTENT CARDS */
+
+.feature-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 16px;
+    margin: 25px 0;
 }
 
-.article-content h2 {
-  font-size: 27px;
-  line-height: 1.4;
-  margin-bottom: 13px;
+.feature {
+    padding: 20px;
+    border: 1px solid #eee;
+    border-radius: 9px;
+    background: #fff;
+    transition: .3s;
 }
 
-.article-content h3 {
-  font-size: 19px;
-  line-height: 1.5;
-  margin-bottom: 6px;
+.feature:hover {
+    border-color: var(--orange);
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,.05);
 }
 
-.article-content p {
-  margin-bottom: 17px;
+.feature h3 {
+    color: var(--orange);
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.feature p {
+    margin: 0;
+    font-size: 15px;
+}
+
+/* INFO BOX */
+
+.info-box {
+    background: #fff4ee;
+    border-left: 4px solid var(--orange);
+    padding: 18px 22px;
+    border-radius: 5px;
+    margin: 25px 0;
+}
+
+.info-box strong {
+    color: var(--orange);
+}
+
+/* STEPS */
+
+.steps {
+    margin: 25px 0;
 }
 
 .step {
-  background: #fff5e3;
-  border: 1px solid #ead5b4;
-  border-left: 4px solid var(--red);
-  border-radius: 8px;
-  padding: 18px 20px;
-  margin: 17px 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 15px;
+    padding: 17px;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    margin-bottom: 12px;
 }
 
-.step p {
-  margin-bottom: 0;
+.step-number {
+    min-width: 35px;
+    height: 35px;
+    background: var(--orange);
+    color: white;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
 }
 
-.tip-box {
-  background: #fff0d3;
-  border: 1px solid #e8d0a9;
-  border-radius: 9px;
-  padding: 19px 21px;
-  margin: 23px 0;
+.step-content h3 {
+    font-size: 17px;
+    margin-bottom: 4px;
 }
 
-.tip-box p {
-  margin-bottom: 0;
+.step-content p {
+    margin: 0;
+    font-size: 15px;
 }
 
-.article-bottom {
-  border-top: 1px solid #eadbc3;
-  margin-top: 35px;
-  padding-top: 20px;
-  font-size: 14px;
-  color: #786755;
+/* FAQ */
+
+.faq-section {
+    max-width: 1250px;
+    margin: 65px auto 25px;
+    padding: 0 20px;
 }
 
-/* Footer - matched to screenshot */
-.site-footer {
-  background: var(--red);
-  color: #fff;
-  width: 100%;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  line-height: 1.75;
+.faq-heading {
+    text-align: center;
+    font-size: 32px;
+    margin-bottom: 30px;
+    color: #222;
+}
+
+.faq-heading span {
+    color: var(--orange);
+}
+
+.faq-item {
+    margin-bottom: 9px;
+    overflow: hidden;
+}
+
+.faq-question {
+    width: 100%;
+    min-height: 56px;
+    padding: 12px 25px;
+    background: var(--orange);
+    border: none;
+    border-left: 4px solid white;
+    border-right: 4px solid white;
+    border-radius: 0 35px 0 35px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+    cursor: pointer;
+    font-size: 17px;
+    font-weight: 700;
+    transition: .3s;
+}
+
+.faq-question:hover {
+    background: #e95d00;
+}
+
+.faq-question .plus {
+    font-size: 29px;
+    line-height: 1;
+    font-weight: 400;
+    margin-left: 15px;
+    transition: transform .3s;
+}
+
+.faq-item.active .plus {
+    transform: rotate(45deg);
+}
+
+.faq-answer {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height .35s ease;
+    background: #fff7f3;
+}
+
+.faq-answer p {
+    padding: 18px 25px;
+    color: #555;
+    font-size: 15px;
+}
+
+/* FOOTER - SAME DESIGN */
+
+footer {
+    width: 100%;
+    margin-top: 25px;
 }
 
 .footer-main {
-  max-width: 1240px;
-  width: 90%;
-  margin: 0 auto;
-  padding: 45px 0 0;
-  display: grid;
-  grid-template-columns: 2fr 0.8fr 0.95fr 1.45fr;
-  gap: 55px;
+    background: var(--orange);
+    min-height: 94px;
+    padding: 20px 6%;
 }
 
-.footer-column h2,
-.footer-column h3 {
-  font-family: Georgia, "Times New Roman", serif;
-  color: #fff;
-  font-size: 19px;
-  font-weight: 700;
-  margin-bottom: 12px;
-  line-height: 1.4;
-}
-
-.footer-column h2 {
-  font-size: 22px;
-}
-
-.footer-description {
-  max-width: 360px;
-  color: #fff;
-  line-height: 1.8;
+.footer-inner {
+    max-width: 1250px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
 }
 
 .footer-links {
-  list-style: none;
-}
-
-.footer-links li {
-  margin-bottom: 7px;
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
 }
 
 .footer-links a {
-  color: #fff;
-  font-weight: 600;
-  transition: opacity 0.2s ease;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: italic;
+    text-decoration: none;
 }
 
 .footer-links a:hover {
-  opacity: 0.75;
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
-/* Social media icons */
-.social-links {
-  display: flex;
-  align-items: center;
-  gap: 11px;
-  margin-top: 15px;
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
 }
 
-.social-links a {
-  width: 40px;
-  height: 40px;
-  border: 1px solid rgba(255,255,255,0.35);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-  transition: transform 0.2s ease, opacity 0.2s ease;
-}
-
-.social-links a:hover {
-  transform: translateY(-3px);
-  opacity: 0.85;
-}
-
-.social-links svg {
-  display: block;
-  width: 21px;
-  height: 21px;
-  fill: currentColor;
-}
-
-.social-links .pinterest {
-  background: #e60023;
-}
-
-.social-links .twitter {
-  background: #08a9e8;
-}
-
-.social-links .instagram {
-  background: linear-gradient(
-    35deg,
-    #ffb347,
-    #fd1d72,
-    #833ab4
-  );
-}
-
-/* Disclaimer and copyright */
-.footer-bottom {
-  margin-top: 2px;
-  border-top: 1px solid rgba(255,255,255,0.3);
-  text-align: center;
-  padding: 23px 20px 24px;
-}
-
-.footer-disclaimer {
-  max-width: 920px;
-  margin: 0 auto 12px;
-  color: #fff;
-  line-height: 1.75;
-}
-
-.footer-disclaimer strong {
-  font-weight: 700;
-}
-
-.footer-copyright {
-  color: #fff;
-  font-weight: 600;
-}
-
-/* Responsive layout */
-@media (max-width: 900px) {
-  .footer-main {
-    grid-template-columns: 1.5fr 1fr;
-    gap: 32px;
-    padding-bottom: 28px;
-  }
-
-  .footer-bottom {
-    margin-top: 0;
-  }
-}
-
-@media (max-width: 760px) {
-  .hero {
-    min-height: 185px;
-    padding: 25px 14px 30px;
-  }
-
-  .hero-logo {
-    width: min(540px, 96%);
-    max-height: 110px;
-  }
-
-  .hero-title {
-    font-size: 26px;
-  }
-
-  .page-background {
-    padding: 24px 13px 40px;
-  }
-
-  .article-card {
-    padding: 24px 21px 32px;
-  }
-
-  h1 {
-    font-size: 33px;
-  }
-
-  .article-content h2 {
-    font-size: 24px;
-  }
-
-  .intro {
-    font-size: 16px;
-  }
-}
-
-@media (max-width: 520px) {
-  .footer-main {
-    width: 88%;
-    grid-template-columns: 1fr 1fr;
-    gap: 27px 20px;
-    padding-top: 32px;
-  }
-
-  .footer-column h2 {
-    font-size: 20px;
-  }
-
-  .footer-column h3 {
+.social-icons a {
+    width: 35px;
+    height: 35px;
+    border: 2px solid white;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
     font-size: 17px;
-  }
-
-  .footer-description {
-    font-size: 13px;
-  }
-
-  .social-links {
-    flex-wrap: wrap;
-    gap: 8px;
-  }
-
-  .social-links a {
-    width: 36px;
-    height: 36px;
-  }
-
-  .footer-bottom {
-    padding: 20px 16px;
-    font-size: 12px;
-  }
-
-  .hero-title {
-    font-size: 23px;
-  }
-
-  .article-card {
-    padding: 20px 16px 28px;
-  }
-
-  h1 {
-    font-size: 29px;
-  }
-
-  .article-content h2 {
-    font-size: 22px;
-  }
-
-  .breadcrumbs {
-    font-size: 12px;
-  }
+    font-weight: bold;
+    text-decoration: none;
+    transition: .3s;
 }
 
-@media (max-width: 350px) {
-  .footer-main {
-    grid-template-columns: 1fr;
-  }
+.social-icons a:hover {
+    background: white;
+    color: var(--orange);
+}
+
+.footer-bottom {
+    text-align: center;
+    padding: 15px 10px;
+    background: white;
+    color: #111;
+    font-size: 16px;
+}
+
+.footer-bottom a {
+    color: var(--orange);
+    text-decoration: underline;
+}
+
+/* RESPONSIVE */
+
+@media(max-width: 950px) {
+    .header-inner {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .logo {
+        font-size: 25px;
+    }
+
+    .nav-menu {
+        gap: 15px;
+    }
+
+    .nav-menu a {
+        font-size: 15px;
+    }
+}
+
+@media(max-width: 768px) {
+    .header-inner {
+        min-height: 65px;
+    }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .nav-menu {
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        padding: 20px;
+        background: white;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 12px;
+        border-bottom: 3px solid var(--orange);
+    }
+
+    .nav-menu.show {
+        display: flex;
+    }
+
+    .nav-menu a {
+        font-size: 17px;
+    }
+
+    .hero {
+        padding: 50px 20px;
+    }
+
+    .hero h1 {
+        font-size: 32px;
+    }
+
+    article h2 {
+        font-size: 23px;
+    }
+
+    .feature-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .footer-inner {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .footer-main {
+        padding: 25px 7%;
+    }
+
+    .social-icons {
+        margin-top: 8px;
+    }
+
+    .faq-question {
+        font-size: 15px;
+        padding: 12px 18px;
+    }
+}
+
+@media(max-width: 450px) {
+    .logo {
+        font-size: 24px;
+    }
+
+    .hero h1 {
+        font-size: 28px;
+    }
+
+    .faq-heading {
+        font-size: 26px;
+    }
+
+    .footer-links {
+        gap: 12px;
+    }
+
+    .footer-links a {
+        font-size: 14px;
+    }
 }
 </style>
 </head>
+
 <body>
 
-<!-- Top strip -->
-<div style="height:20px;background:#b40000;"></div>
+<!-- HEADER -->
 
-<!-- Logo and title -->
-<header class="hero">
-  <a href="https://ricepuritytesthq.com/"
-     aria-label="Rice Purity Test homepage">
-    
-  </a>
+<header>
+    <div class="header-inner">
 
-  <h2 class="hero-title">
-    How to Convert Cursive Font Generator to Text
-  </h2>
+        <a href="#" class="logo">MySainsbury’s</a>
+
+        <button class="menu-toggle"
+                onclick="toggleMenu()"
+                aria-label="Toggle navigation">
+            ☰
+        </button>
+
+        <nav class="nav-menu" id="navMenu">
+            <a href="#" class="active">Home</a>
+            <a href="#app">App</a>
+            <a href="#payslips">PaySlips</a>
+            <a href="#discount">Discount Card</a>
+            <a href="#vouchers">Voucher Codes</a>
+            <a href="#blog">Blog</a>
+        </nav>
+
+    </div>
 </header>
 
-<!-- Article -->
-<main class="page-background">
-  <article class="article-card">
-    <div class="article-content">
+<!-- HERO -->
 
-      <p class="intro">
-        Cursive fonts are a creative way to make digital text look elegant,
-        stylish, and handwritten. They are  
-<a href="https://ricepuritytesthq.com/blog/how-to-convert-cursive-font-generator-to-text" style="color: blue !important; text-decoration: underline;">
-https://ricepuritytesthq.com/blog/how-to-convert-cursive-font-generator-to-text 
-</a>
+<section class="hero">
+    <div class="hero-content">
 
-        cursive text can sometimes be difficult to read or edit. Knowing how
-        to convert cursive font generator text to normal text helps users make
-        their content clearer and easier to use across different platforms.
-      </p>
+        
 
-      <hr class="content-divider">
+        <h1>MySainsburys Login  Your Guide to Employee Online Services</h1>
 
-      <section>
-        <h2>Understanding Cursive Font Generators</h2>
-        <p>
-          A cursive font generator is an online tool that transforms regular
-          text into decorative lettering styles. These styles often resemble
-          handwritten scripts, calligraphy, or flowing cursive writing.
-          Users can enter simple words or sentences and instantly receive
-          a range of stylish text variations.
-        </p>
-        <p>
-          Many generators use special Unicode characters to create these
-          effects. Unlike traditional fonts that change the appearance of
-          existing letters, Unicode-based cursive text may use different
-          character symbols. This distinction is important when <a href="https://ricepuritytesthq.com/blog/how-to-convert-cursive-font-generator-to-text" style="color: blue !important; text-decoration: underline;">converting</a>
-</a>
-          decorative text back into a standard format.
-        </p>
-      </section>
+       
+    </div>
+</section>
 
-      <section>
-        <h2>Why Convert Cursive Text to Normal Text?</h2>
-        <p>
-          There are several reasons to convert cursive text into regular
-          lettering. Decorative characters may look attractive, but they
-          are not always suitable for every purpose. Some websites,
-          applications, and search tools may not recognize them correctly.
-        </p>
-        <p>
-          Normal text is generally easier to read, copy, edit, and search.
-          It is also useful when preparing documents, writing professional
-          messages, completing online forms, or sharing information with
-          people who use different devices.
-        </p>
-        <p>
-          Converting cursive text can also improve accessibility. Screen
-          readers and other digital tools may interpret unusual Unicode
-          characters differently from standard letters. Using regular text
-          can make information more understandable for a wider audience.
-        </p>
-      </section>
+<!-- MAIN CONTENT -->
 
-      <section>
-        <h2>How to Convert Cursive Font Generator Text to Normal Text</h2>
-        <p>
-          Converting cursive text is usually simple when the decorative
-          characters represent recognizable letters. Follow these basic
-          steps to get started.
-        </p>
+<main class="container">
 
-        <div class="step">
-          <h3>Step 1: Copy the Cursive Text</h3>
-          <p>
-            Select the decorative text you want to convert. Copy it from
-            your social media profile, message, document, or cursive font
-            generator.
-          </p>
+<article>
+
+<p>
+Working at a large retail organisation involves keeping track <a href="https://oursainsburysinfo.com/">https://oursainsburysinfo.com/</a>   of different workplace responsibilities, important announcements and employment details. Digital employee services make it easier to find relevant information without relying entirely on printed documents or manual communication. MySainsburys Login is a search term commonly used by staff looking for information about accessing Sainsbury's employee resources.
+</p>
+
+<p>
+Understanding the available online services can help employees become more familiar with their workplace systems. From checking employment information to finding staff-related updates, knowing where to look can make routine tasks easier to manage.
+</p>
+
+<h2 id="app">Understanding the MySainsburys Employee Platform</h2>
+
+<p>
+MySainsburys refers to the employee-focused digital services associated with Sainsbury's. These services are intended to provide eligible staff with access to relevant workplace <a href="https://oursainsburysinfo.netlify.app/">information </a> through approved company systems.
+</p>
+
+<p>
+The exact services available can differ depending on an employee's position, account permissions and the systems currently provided by the organisation. Employees should use the access details and instructions supplied through their workplace.
+</p>
+
+
+
+<h2>Getting Started With Employee Portal Access</h2>
+
+<p>
+Before accessing an employee service, staff generally need their registered login credentials. These details help the system recognise an authorised account and provide access to the appropriate workplace resources.
+</p>
+
+<div class="steps">
+
+    <div class="step">
+        <div class="step-number">1</div>
+        <div class="step-content">
+            <h3>Find the Approved Access Page</h3>
+            <p>Use the employee access address or instructions provided by your workplace.</p>
         </div>
+    </div>
 
-        <div class="step">
-          <h3>Step 2: Open a Text Conversion Tool</h3>
-          <p>
-            Choose a text converter that supports cursive or fancy Unicode
-            characters. Some online tools provide a dedicated option for
-            converting decorative text into standard letters.
-          </p>
+    <div class="step">
+        <div class="step-number">2</div>
+        <div class="step-content">
+            <h3>Enter Your Account Details</h3>
+            <p>Provide the employee username and password associated with your account.</p>
         </div>
+    </div>
 
-        <div class="step">
-          <h3>Step 3: Paste Your Text</h3>
-          <p>
-            Place the copied text into the input box. Check that the complete
-            sentence or phrase appears correctly before continuing.
-          </p>
+    <div class="step">
+        <div class="step-number">3</div>
+        <div class="step-content">
+            <h3>Complete Verification</h3>
+            <p>Follow any additional security or identity verification instructions displayed by the system.</p>
         </div>
+    </div>
 
-        <div class="step">
-          <h3>Step 4: Convert the Characters</h3>
-          <p>
-            Use the conversion option if the tool provides one. The tool may
-            replace supported decorative characters with their closest
-            standard equivalents.
-          </p>
+    <div class="step">
+        <div class="step-number">4</div>
+        <div class="step-content">
+            <h3>Explore Available Services</h3>
+            <p>After successful authentication, review the tools and information available to your account.</p>
         </div>
+    </div>
 
-        <div class="step">
-          <h3>Step 5: Review and Copy the Result</h3>
-          <p>
-            Read the converted text carefully. Correct any missing letters,
-            spacing problems, or unusual symbols before copying the result
-            into your document or application.
-          </p>
-        </div>
+</div>
 
-        <div class="tip-box">
-          <p>
-            <strong>Helpful tip:</strong> Some decorative styles cannot be
-            converted perfectly. Certain characters may not have a direct
-            equivalent, so manual corrections may be necessary.
-          </p>
-        </div>
-      </section>
+<h2 id="payslips">Important Employee Services and Resources</h2>
 
-      <section>
-        <h2>Can Cursive Text Be Converted Without a Tool?</h2>
-        <p>
-          In many cases, yes. If the decorative text uses recognizable
-          characters, you may be able to rewrite it manually in standard
-          letters. This approach works well for short names, usernames,
-          and simple phrases.
-        </p>
-        <p>
-          For longer passages, an online converter can save time. However,
-          ordinary font styling and Unicode characters are not the same.
-          If cursive text was created using a font applied to normal letters
-          in a document, selecting the text and changing the font to a
-          standard typeface may be enough. If the text contains decorative
-          Unicode symbols, a character conversion tool may be required instead.
-        </p>
-        <p>
-          Understanding this difference helps you choose the correct method
-          and avoid unnecessary formatting problems.
-        </p>
-      </section>
+<p>
+Workplace digital platforms can make several types of employment information easier to access. The services below are examples of common employee resources; actual availability depends on the systems and permissions provided by the company.
+</p>
 
-      <section>
-        <h2>Common Problems During Text Conversion</h2>
-        <p>
-          Some cursive characters may appear as boxes, question marks, or
-          unfamiliar symbols on certain devices. This can happen when a
-          font or application does not support the characters being used.
-        </p>
-        <p>
-          Another issue is incomplete conversion. A tool may recognize some
-          decorative letters but leave others unchanged. Special symbols,
-          punctuation, and accented characters can also produce inconsistent
-          results.
-        </p>
-        <p>
-          To reduce these problems, use a reliable conversion tool, review
-          the output, and test the text in its intended destination. For
-          important documents, keep a copy of the original text until you
-          confirm that the converted version is accurate.
-        </p>
-      </section>
+<div class="feature-grid">
 
-      <section>
-        <h2>Best Uses for Normal Text</h2>
-        <p>
-          Standard text is ideal for emails, school assignments, business
-          documents, website content, and online forms. It improves readability
-          and makes editing easier. Normal lettering is also useful when you
-          need searchable text for research, accessibility, or professional
-          communication.
-        </p>
-        <p>
-          Cursive lettering still has value for creative projects, decorative
-          headings, and social media styling. The best choice depends on your
-          audience, purpose, and platform.
-        </p>
-      </section>
+    <div class="feature">
+        <h3>Employee Payslips</h3>
+        <p>Where supported, online payroll services allow employees to review their salary statements and related payment information.</p>
+    </div>
 
-      <section>
-        <h2>Final Thoughts</h2>
-        <p>
-          Learning how to convert cursive font generator text to normal text
-          makes it easier to manage decorative writing in everyday digital
-          communication. By copying your text, choosing a suitable converter,
-          and reviewing the result, you can transform supported cursive
-          characters into a more readable format.
-        </p>
-        <p>
-          Always check the converted version before using it. While many
-          decorative characters can be changed into standard letters,
-          some styles require manual editing. Choosing the right conversion
-          method helps you maintain clarity, accuracy, and compatibility
-          across different digital platforms.
-    
-  </article>
+    <div class="feature">
+        <h3>Work Rotas</h3>
+        <p>Scheduling services may help staff review assigned shifts, working hours and other rota information.</p>
+    </div>
+
+    <div class="feature" id="discount">
+        <h3>Staff Benefits</h3>
+        <p>Eligible employees may receive information about workplace benefits and available staff-related programmes.</p>
+    </div>
+
+    <div class="feature">
+        <h3>Company Updates</h3>
+        <p>Internal announcements can provide useful information about workplace policies, changes and important notices.</p>
+    </div>
+
+    <div class="feature" id="vouchers">
+        <h3>Discount Information</h3>
+        <p>Approved employee resources may provide details about staff discount arrangements and relevant terms.</p>
+    </div>
+
+    <div class="feature">
+        <h3>Workplace Guidance</h3>
+        <p>Employees may find useful documents, guidance and links to tools that support their daily responsibilities.</p>
+    </div>
+
+</div>
+
+<h2>How to Check Employment and Payroll Information</h2>
+
+<p>
+Payroll information is an important part of employment management. Employees who have access to online payslip services can use the authorised payroll platform to review available salary statements and payment details.
+</p>
+
+<p>
+If you cannot locate your payslip, check whether the relevant payroll service is available to your account. You can also contact your store manager or payroll department for clarification about publication dates and account access.
+</p>
+
+<h2>Common Account Access Problems</h2>
+
+<p>
+Sometimes employees may experience difficulties when trying to access workplace services. These problems can result from incorrect credentials, account restrictions, browser issues or temporary service interruptions.
+</p>
+
+<ul>
+    <li><strong>Incorrect credentials:</strong> Check that your username and password have been entered correctly.</li>
+    <li><strong>Forgotten password:</strong> Follow the authorised account recovery instructions where available.</li>
+    <li><strong>Browser problems:</strong> Refresh the page or try another supported browser.</li>
+    <li><strong>Connection issues:</strong> Make sure your internet connection is working properly.</li>
+    <li><strong>Account restrictions:</strong> Contact the appropriate workplace support team if access remains unavailable.</li>
+</ul>
+
+<h2>Using Employee Services on Mobile Devices</h2>
+
+<p>
+Mobile devices can make online workplace information more convenient to access, especially when employees are away from a desktop computer. If the relevant employee services support mobile browsers or an approved application, staff may be able to use their registered accounts on compatible smartphones.
+</p>
+
+<p>
+For the best experience, use an updated browser and a secure internet connection. Follow company instructions about supported devices and applications rather than downloading software from unfamiliar websites.
+</p>
+
+<h2>Simple Ways to Protect Your Account</h2>
+
+<p>
+Employee accounts can contain personal details and workplace information, making account security an important consideration. A few straightforward habits can help reduce the risk of unauthorised access.
+</p>
+
+<ul>
+    <li>Create a strong password that is difficult for others to guess.</li>
+    <li>Never share your login credentials with other people.</li>
+    <li>Avoid entering account details on suspicious websites.</li>
+    <li>Always sign out when using a shared computer.</li>
+    <li>Keep your browser and device software updated.</li>
+    <li>Report unusual account activity to the appropriate support team.</li>
+</ul>
+
+<h2>Why Employees Should Understand Their Online Resources</h2>
+
+<p>
+Being familiar with available workplace systems can save time and make routine employment tasks easier. Employees who understand where to find relevant information can manage their schedules, review available resources and stay aware of important company communications.
+</p>
+
+<p>
+It is also helpful to understand the correct support channels. When a service is unavailable or an account needs attention, contacting the appropriate department is generally more reliable than following unofficial instructions found online.
+</p>
+
+<h2 id="blog">Final Thoughts on MySainsburys Login</h2>
+
+<p>
+MySainsburys Login is a useful search term for employees who want to learn more about accessing Sainsbury's workplace services. Understanding the general access process, available employee resources and common account issues can make digital workplace management more straightforward.
+</p>
+
+<p>
+Employees should always follow official company instructions, protect their account credentials and contact authorised support teams whenever they need help. Using approved resources is the best way to obtain accurate information about employee services and account access.
+</p>
+
+</article>
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d9478108.126193954!2d-4.4737716!3d54.55127985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x25a3b1142c791a9%3A0xc4f8a0433288257a!2sUnited%20Kingdom!5e0!3m2!1sen!2s!4v1793692279226!5m2!1sen!2s" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
 </main>
 
-<!-- Footer matching the supplied screenshot -->
-<footer class="site-footer">
+<!-- FAQ -->
 
-  <div class="footer-main">
+<section class="faq-section" id="faq">
 
-    <div class="footer-column">
-      <h2>Rice Purity Test</h2>
-      <p class="footer-description">
-        Original 100 questions with 0 judgment. Your score stays safely
-        between you and your browser. 100% free, completely anonymous,
-        and the perfect way to compare life experiences with your friends.
-      </p>
-    </div>
+<h2 class="faq-heading">
+Frequently Asked <span>Questions</span>
+</h2>
 
-    <div class="footer-column">
-      <h3>Explore</h3>
-      <ul class="footer-links">
-        <li><a href="https://ricepuritytesthq.com/">Home</a></li>
-        <li><a href="https://ricepuritytesthq.com/">Gay Test</a></li>
-        <li><a href="https://ricepuritytesthq.com/blog/">Blog</a></li>
-      </ul>
-    </div>
+<div class="faq-item">
+<button class="faq-question" aria-expanded="false">
+<span>Can I access MySainsburys from my smartphone?</span>
+<span class="plus">+</span>
+</button>
+<div class="faq-answer">
+<p>Mobile access depends on the employee services supported by Sainsbury's. If mobile browsers or an approved application are supported, eligible staff can follow the company's instructions to access their accounts.</p>
+</div>
+</div>
 
-    <div class="footer-column">
-      <h3>Legal Pages</h3>
-      <ul class="footer-links">
-        <li><a href="https://ricepuritytesthq.com/privacy-policy">Privacy Policy</a></li>
-        <li><a href="https://ricepuritytesthq.com/terms-and-conditions">Terms &amp; Conditions</a></li>
-        <li><a href="https://ricepuritytesthq.com/about-us">About Us</a></li>
-        <li><a href="https://ricepuritytesthq.com/contact-us">Contact Us</a></li>
-        <li><a href="https://ricepuritytesthq.com/">Cookie Settings</a></li>
-      </ul>
-    </div>
+<div class="faq-item">
+<button class="faq-question" aria-expanded="false">
+<span>Where can I find my employee payslip?</span>
+<span class="plus">+</span>
+</button>
+<div class="faq-answer">
+<p>If online payslips are available to your account, check the authorised payroll or employee service. Contact your payroll department if you need help locating a salary statement.</p>
+</div>
+</div>
 
-    <div class="footer-column">
-      <h3>Follow Us</h3>
+<div class="faq-item">
+<button class="faq-question" aria-expanded="false">
+<span>What should I do if my account does not open?</span>
+<span class="plus">+</span>
+</button>
+<div class="faq-answer">
+<p>Check your login details, internet connection and browser first. If the issue continues, contact your manager or the appropriate IT support team.</p>
+</div>
+</div>
 
-      <div class="social-links">
+<div class="faq-item">
+<button class="faq-question" aria-expanded="false">
+<span>How can I view my work rota?</span>
+<span class="plus">+</span>
+</button>
+<div class="faq-answer">
+<p>If rota services are available through your employee account, sign in and look for the scheduling section. Your manager can help if you cannot access your shift information.</p>
+</div>
+</div>
 
-        <a class="pinterest"
-           href="https://www.pinterest.com/"
-           aria-label="Pinterest">
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M12 2a10 10 0 0 0-3.64 19.31c-.02-.79 0-1.74.2-2.6l1.44-6.1s-.36-.72-.36-1.78c0-1.67.97-2.92 2.18-2.92 1.03 0 1.53.77 1.53 1.7 0 1.04-.66 2.6-1 4.05-.29 1.21.61 2.2 1.8 2.2 2.16 0 3.83-2.28 3.83-5.57 0-2.91-2.09-4.95-5.08-4.95-3.46 0-5.49 2.6-5.49 5.28 0 1.05.4 2.18.91 2.79.1.12.11.23.08.35l-.34 1.37c-.05.22-.18.27-.41.16-1.52-.71-2.47-2.94-2.47-4.73 0-3.85 2.8-7.39 8.08-7.39 4.24 0 7.54 3.02 7.54 7.05 0 4.2-2.65 7.58-6.33 7.58-1.24 0-2.41-.65-2.81-1.42l-.76 2.9c-.28 1.06-1.03 2.38-1.53 3.19A10 10 0 1 0 12 2z"/>
-          </svg>
-        </a>
+<div class="faq-item">
+<button class="faq-question" aria-expanded="false">
+<span>Can I reset a forgotten employee password?</span>
+<span class="plus">+</span>
+</button>
+<div class="faq-answer">
+<p>Use the official password recovery process if provided. If you cannot complete the process, ask your workplace support team for assistance.</p>
+</div>
+</div>
 
-        <a class="twitter"
-           href="https://twitter.com/"
-           aria-label="Twitter">
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M22 5.92a8.2 8.2 0 0 1-2.36.65 4.12 4.12 0 0 0 1.8-2.27 8.22 8.22 0 0 1-2.61 1 4.1 4.1 0 0 0-7 3.74A11.64 11.64 0 0 1 3.38 4.75a4.1 4.1 0 0 0 1.27 5.47 4.08 4.08 0 0 1-1.86-.52v.05a4.11 4.11 0 0 0 3.29 4.03 4.1 4.1 0 0 1-1.85.07 4.12 4.12 0 0 0 3.83 2.85A8.25 8.25 0 0 1 2 18.4a11.63 11.63 0 0 0 6.29 1.84c7.55 0 11.68-6.25 11.68-11.67l-.01-.53A8.35 8.35 0 0 0 22 5.92z"/>
-          </svg>
-        </a>
+<div class="faq-item">
+<button class="faq-question" aria-expanded="false">
+<span>How do I keep my employee account secure?</span>
+<span class="plus">+</span>
+</button>
+<div class="faq-answer">
+<p>Use a strong password, avoid suspicious login links, keep your credentials private and always sign out from shared devices.</p>
+</div>
+</div>
 
-        <a class="instagram"
-           href="https://www.instagram.com/"
-           aria-label="Instagram">
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9zM12 7a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm5.25-3.5a1.25 1.25 0 1 1 0 2.5 1.25 1.25 0 0 1 0-2.5z"/>
-          </svg>
-        </a>
+</section>
 
-      </div>
-    </div>
+<!-- FOOTER -->
 
-  </div>
+<footer>
 
-  <div class="footer-bottom">
+<div class="footer-main">
 
-    <p class="footer-disclaimer">
-      <strong>Disclaimer:</strong>
-      This independent website is provided for informational and entertainment
-      purposes only. It is not affiliated with, endorsed by, sponsored by,
-      or connected to Rice University, the Rice Thresher, or any of their
-      respective organizations.
-    </p>
+<div class="footer-inner">
 
-    <p class="footer-copyright">
-      © 2026 Rice Purity Test.
-    </p>
+<div class="footer-links">
+<a href="#app">About Us</a>
+<a href="#contact">Contact Us</a>
+<a href="#privacy">Privacy Policy</a>
+</div>
 
-  </div>
+<div class="social-icons">
+<a href="#" aria-label="Facebook">f</a>
+<a href="#" aria-label="Instagram">◎</a>
+<a href="#" aria-label="Pinterest">p</a>
+</div>
+
+</div>
+
+</div>
+
+<div class="footer-bottom">
+© 2026 <a href="#">MySainsburys</a>
+</div>
 
 </footer>
+
+<!-- JAVASCRIPT -->
+
+<script>
+
+// Mobile Navigation
+
+function toggleMenu() {
+    document.getElementById("navMenu").classList.toggle("show");
+}
+
+// FAQ Accordion
+
+const faqItems = document.querySelectorAll(".faq-item");
+
+faqItems.forEach(item => {
+
+    const question = item.querySelector(".faq-question");
+    const answer = item.querySelector(".faq-answer");
+
+    question.addEventListener("click", () => {
+
+        const isOpen = item.classList.contains("active");
+
+        faqItems.forEach(otherItem => {
+
+            otherItem.classList.remove("active");
+
+            otherItem.querySelector(".faq-answer").style.maxHeight = null;
+
+            otherItem.querySelector(".faq-question")
+                .setAttribute("aria-expanded", "false");
+
+        });
+
+        if (!isOpen) {
+
+            item.classList.add("active");
+
+            answer.style.maxHeight = answer.scrollHeight + "px";
+
+            question.setAttribute("aria-expanded", "true");
+
+        }
+
+    });
+
+});
+
+</script>
 
 </body>
 </html>
